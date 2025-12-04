@@ -7,12 +7,12 @@
 - **Subscriber**: Represents users or entities subscribed to the news service. Subscribers receive immediate notifications about any breaking news published by the agency.
 
 **Requirements**:
-1. Subscription Management:
+1. **Subscription Management**:
   - Users should be able to subscribe to the news service.
   - Subscribers should be notified promptly when new news is published.
-2. Dynamic Subscription Updates:
+2. **Dynamic Subscription Updates**:
   - The system should allow for dynamic subscription updates. Subscribers can subscribe, unsubscribe, or modify their preferences without disrupting other subscribers.
-3. Decoupled Communication:
+3. **Decoupled Communication**:
   - Ensure that the communication between the news agency and subscribers is decoupled. Subscribers shouldn't directly request news updates but should be notified by the news agency when new information is available.
 
 **Expected Behavior**:
